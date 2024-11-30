@@ -1,0 +1,105 @@
+{
+    "lists": {
+        "To Do": [
+            {
+                "itemName": "Homework",
+                "itemDate": "11/30/2024",
+                "itemComplete": false
+            },
+            {
+                "itemName": "Christmas Shopping",
+                "itemDate": "11/30/2024",
+                "itemComplete": false
+            },
+            {
+                "itemName": "Dermatologist",
+                "itemDate": "11/30/2024",
+                "itemComplete": false 
+            },
+            {
+                "itemName": "Look at more classes",
+                "itemDate": "11/30/2024",
+                "itemComplete": false 
+            },
+            {
+                "itemName": "ALEKS test",
+                "itemDate": "11/30/2024",
+                "itemComplete": false 
+            },
+            {
+                "itemName": "Deposit leftover chash",
+                "itemDate": "11/30/2024",
+                "itemComplete": false 
+            },
+            {
+                "itemName": "Car registration",
+                "itemDate": "11/30/2024",
+                "itemComplete": false 
+            },
+            {
+                "itemName": "Get authenticator on new phone",
+                "itemDate": "11/30/2024",
+                "itemComplete": false 
+            },
+            {
+                "itemName": "Clean Bathroom",
+                "itemDate": "11/30/2024",
+                "itemComplete": false 
+            }
+        ],
+        "Shopping": [
+            {
+                "itemName": "Headset",
+                "itemDate": "11/30/2024",
+                "itemComplete": false 
+            },
+            {
+                "itemName": "Sheets",
+                "itemDate": "11/30/2024",
+                "itemComplete": true 
+            },
+            {
+                "itemName": "Longer phone charger",
+                "itemDate": "11/30/2024",
+                "itemComplete": false 
+            },
+            {
+                "itemName": "KVM switch",
+                "itemDate": "11/30/2024",
+                "itemComplete": false 
+            },
+            {
+                "itemName": "Light switch panel",
+                "itemDate": "11/30/2024",
+                "itemComplete": false 
+            },
+            {
+                "itemName": "Light for room",
+                "itemDate": "11/30/2024",
+                "itemComplete": false 
+            },
+            {
+                "itemName": "Pens",
+                "itemDate": "11/30/2024",
+                "itemComplete": true 
+            }
+        ],
+        "Dates": [
+            {
+                "itemName": "Christmas",
+                "itemDate": "12/25/2024",
+                "itemComplete": false 
+            },
+            {
+                "itemName": "New Years Eve",
+                "itemDate": "12/31/2024",
+                "itemComplete": false 
+            },
+            {
+                "itemName": "New Years Day",
+                "itemDate": "01/01/2024",
+                "itemComplete": false 
+            }
+        ]
+    }
+}
