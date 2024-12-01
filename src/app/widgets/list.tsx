@@ -43,10 +43,10 @@ const NewItemMenu: React.FC<NewItemMenuProps> = ({ listName, closeMenu }) => {
         //containing div, maybe add blur?
         <div className="absolute top-0 left-0 w-full h-full p-2"> 
             <div className="backdrop-blur-sm z-10 w-full h-full p-2 flex flex-col pt-10">
-                <div className="bg-white p-2 rounded-md">
+                <div className="bg-white p-2 rounded-md border-4 border-black border-opacity-20">
                     <div className="flex flex-row justify-between py-1">
                         <p className="font-semibold tracking-wider">New {listName} item</p>
-                        <button className="bg-red-600 text-white rounded-full aspect-square h-5 text-[12px] m-0 p-0 self-center" onClick={closeMenu}>X</button>
+                        <p className="bg-red-600 text-white rounded-full h-[19.5px] w-[19.5px] text-[22px] leading-[19px] cursor-pointer" onClick={closeMenu}>⮾</p>
                     </div>
                     <hr className="border-black"></hr>
                     <div className="flex flex-col gap-2 p-2">
@@ -84,11 +84,11 @@ const List: React.FC<ListProps> = ({ listName, items }) => {
     }
 
     return (
-        <div className="bg-slate-100 p-2 min-w-96 h-fit relative">
+        <div className="bg-slate-100 p-2 min-w-96 h-fit relative rounded-lg">
             { menuToggled && <NewItemMenu listName={listName} closeMenu={ closeMenu } />}
-            <div className="bg-slate-200 p-2">
+            <div className="bg-slate-200 p-2 rounded-md">
                 <div className="flex flex-row justify-between my-1">
-                    <h1 className="font-semibold tracking-wider">{ listName }</h1>
+                    <h1 className="font-semibold tracking-wider pl-2">{ listName }</h1>
                     <button className="bg-blue-500 text-white px-2 rounded-md" onClick={openMenu}>New</button>
                 </div>
                 <hr className="border-slate-500"></hr>
